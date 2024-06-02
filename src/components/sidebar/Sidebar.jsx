@@ -2,7 +2,7 @@ import Links from "./links/Links";
 import "./sidebar.scss"
 import {delay, motion, transform} from "framer-motion"
 import { useState } from "react";
-import ToggleButton from "./toggleButton/toggleButton";
+import ToggleButton from "./toggleButton/ToggleButton"
 const variants={
     open: {clipPath: "circle(1200px at 50px 50px)",
     transition: { type: "spring",
